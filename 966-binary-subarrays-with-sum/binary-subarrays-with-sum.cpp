@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //Jay
     int numSubarraysWithSum(vector<int>& nums, int goal) {
     int prev=0,cnt=0;
     map<int,int>mp;
