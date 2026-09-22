@@ -1,8 +1,9 @@
 class Solution {
 public:
+    //Jay
     void dfs(vector<vector<int>>& image, int i, int j, int color, int initial) {
         if (i < 0 || i >= image.size() || j < 0 || j >= image[0].size() ||
-            image[i][j] != initial || image[i][j] == color)
+            image[i][j] != initial)
             return;
         image[i][j] = color;
         dfs(image, i - 1, j, color,initial);
